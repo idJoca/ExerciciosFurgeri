@@ -58,7 +58,7 @@ public class ExerciciosTest {
 
     private static void printNames(Exercicio exercicio) {
         List<String> names;
-        names = new ArrayList<String>();
+        names = new ArrayList<>();
 
         names.add("João");
         names.add("José");
@@ -68,7 +68,7 @@ public class ExerciciosTest {
     }
 
     private static Boolean getEvenNumbers(Exercicio exercicio) {
-        List<Integer> numbers = new ArrayList<Integer>();
+        List<Integer> numbers = new ArrayList<>();
 
         numbers.add(1);
         numbers.add(2);
@@ -89,7 +89,7 @@ public class ExerciciosTest {
     }
 
     private static Boolean getArithmeticAverage(Exercicio exercicio) {
-        List<Double> grades = new ArrayList<Double>();
+        List<Double> grades = new ArrayList<>();
 
         grades.add(1.0d);
         grades.add(10.0d);
